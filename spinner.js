@@ -1,3 +1,5 @@
+;(function(){
+
 function Spinner(div_id) {
     this.div_id = div_id;
     this.fillList = [
@@ -98,3 +100,6 @@ Spinner.prototype.initiate = function() {
     };
     animate_flask_color();
 }
+
+window.Spinner = Spinner;
+});
