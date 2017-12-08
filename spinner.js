@@ -102,4 +102,4 @@ Spinner.prototype.initiate = function() {
 }
 
 window.Spinner = Spinner;
-});
+})();
